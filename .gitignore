@@ -1,0 +1,39 @@
+# Virtual environment
+venv/
+myenv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+firebase_key.json
+
+# Database files
+*.db
+
+# Flask session files
+flask_session/
+
+# FAISS index files
+faiss_index/
+*.faiss
+*.pkl
+
+# Static and uploads (modify if needed)
+uploads/
+uploads_buddy/
+static/exaguru_notes.pdf
+static/scores.png
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE and OS-specific files
+.vscode/
+.DS_Store
+Thumbs.db
